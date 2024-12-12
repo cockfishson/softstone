@@ -65,14 +65,14 @@ const Battlefield: React.FC<BattlefieldProps> = ({
                                     />
                                     {unit.isDefending && (
                                         <img
-                                            src="/src/assets/shield_icon.png"
+                                            src="/assets/shield_icon.png"
                                             alt="Defending"
                                             className="status_icon shield_icon"
                                         />
                                     )}
                                     {unit.isParalyzed && (
                                         <img
-                                            src="/src/assets/snake_icon.png"
+                                            src="/assets/snake_icon.png"
                                             alt="Paralyzed"
                                             className="status_icon snake_icon"
                                         />

@@ -1,0 +1,53 @@
+.queue_panel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.queue_unit{
+    width: 50px;
+    height: 75px;
+    padding: 5px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.queue_unit:hover{
+    scale:105%;
+    box-shadow: 0 0 5px #f9f9f9;
+}
+
+.queue_img{
+    width: 100%;
+    height: 50%;
+    margin: 0;
+}
+
+.queue_text{
+    font-size: 0.5rem;
+    line-height: 0.5rem;
+    margin: 0;
+    color: #1a1a1a;
+}
+
+.queue_unit.red{
+    border: 2px solid red;
+}
+
+.queue_unit.green{
+    border: 2px solid green;
+}
+
+.queue_unit.selected{
+    scale: 110%;
+    box-shadow: 0 0 10px #c3b974;
+}
+
+.queue_text.selected_text{
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+}
